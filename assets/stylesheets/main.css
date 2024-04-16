@@ -292,6 +292,13 @@ a {
 
 }
 
+.primary-nav {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+}
+
 /*
   ========================================
   Navigation
@@ -302,12 +309,15 @@ a {
   text-align: right;
 }
 
-.primary-nav {
-  font-size: 14px;
-  font-weight: 400;
-  letter-spacing: .5px;
-  text-transform: uppercase;
+.nav li {
+  display: inline-block;
+  margin: 0 10px;
+  vertical-align: top;
 }
+.nav li:last-child {
+  margin-right: 0;
+}
+
 /*
   ========================================
   Primary footer
@@ -350,4 +360,20 @@ a {
   text-align: center;
 }
 
+/*
+  ========================================
+  Speakers
+  ========================================
+*/
+  
+.speaker-info {
+  border: 1px solid #dfe2e5;
+  border-radius: 5px;
+  margin-top: 88px;
+  padding: 22px 0;
+  text-align: center;
+}
 
+.speaker {
+  margin-bottom: 44px;
+}
